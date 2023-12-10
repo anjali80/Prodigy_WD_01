@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+.left{
+    /* color: rgb(163, 190, 194); */
+    color: pink;
+}
+
+body {
+    /* background-color: rgb(0, 0, 33); */
+    background-color: rgb(49, 85, 94);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    /* background-color: rgb(18, 18, 62); */
+    background-color: rgb(10, 50, 60);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* color: white; */
+    color: rgb(163, 190, 194);
+}
+
+nav ul li a:hover {
+    /* color: rgb(153, 153, 226); */
+    color: rgb(123, 79, 133);
+    font-size: 1.03rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 80px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+section{
+    display: flex;
+}
+.firstsection {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    margin: 115px 0;
+    
+}
+/* .secondsection {
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+} */
+.secondsection{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 115px 0;
+}
+.thirdsection {
+
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+
+}
+footer {
+    /* background-color: #0e0e1a; */
+    background-color: #0e0e1a;
+
+    /* height: 233px; */
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-around;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.thirdsection {
+
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+
+}
+
+.third-top-gray {
+    color: gray;
+}
+
+.third-vertical-section {
+    display: flex;
+    padding: 23px 122px;
+    /* justify-content: space-around; */
+}
+
+.firstsection img{
+    width: 100%;
+    /* margin: 24px 24px 24px 24px; */
+    /* justify-content: center; */
+    /* position: relative; */
+    
+    margin: 13px 50px auto 25px;
+    padding: 13px 45px 25px 45px ;
+    height: 90vh;
+    border-radius: 25px;
+    position: relative;
+}
+  
+.secondsection img{
+    width: 100%;
+    /* position: relative; */
+    /* margin: 24px 24px 24px 24px; */
+    /* justify-content: center; */
+    /* position: relative; */
+    
+    margin: 13px 50px auto 25px;
+    padding: 13px 45px 25px 45px ;
+    height: 90vh;
+    border-radius: 25px;
+    position: relative;
+    
+    
+    
+}
+.img-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* div.img-name{
+    
+} */
+
+
+/*@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+        position: relative;
+        background-color: lightblue;
+    }
+}
+*/
+@media screen and (max-width: 600px) {
+    .right a:not(:first-child) {display: none;}
+    .right a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .right .responsive {position: relative;}
+    .right.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .right.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
