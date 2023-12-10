@@ -1,1 +1,1 @@
-# Prodigy_WD_01
+This is a responsive landing page for a food menu.
